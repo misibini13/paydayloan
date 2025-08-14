@@ -1,0 +1,16 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+.sidebar {
+  width: 220px;
+  min-height: 100vh;
+}
+.content {
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
